@@ -4,16 +4,16 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ![](./screenshot.png)
 
-# Links
+## Links
 
 - [GitHub](https://your-solution-url.com)
 - [Add live site URL here](https://your-live-site-url.com)
 
-# Built with
+## Built with
 
 - HTML
-- CSS
+- CSS with SCSS
 
-# Author
+## Author
 
 - Frontend Mentor - [@avsecam](https://www.frontendmentor.io/profile/avsecam)
