@@ -54,6 +54,7 @@ main {
 		#view:hover {
 			background-image: url("./images/icon-view.svg");
 			background-color: $cyanHalf;
+			cursor: pointer;
 		}
 	}
 	

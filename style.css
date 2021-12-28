@@ -39,6 +39,7 @@ main #img-container #view {
 main #img-container #view:hover {
   background-image: url("./images/icon-view.svg");
   background-color: rgba(0, 255, 247, 0.5);
+  cursor: pointer;
 }
 main #title {
   font-weight: 600;
