@@ -6,8 +6,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Links
 
-- [GitHub](https://your-solution-url.com)
-- [Add live site URL here](https://your-live-site-url.com)
+- [GitHub](https://github.com/avsecam/FM-NFT)
+- [Live Site](https://avsecam.github.io/FM-NFT/)
 
 ## Built with
 
