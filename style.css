@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: #0d192b;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+main {
+  font-family: "Outfit", sans-serif;
+  background-color: #14253d;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 25px -10px black;
+  margin: 25px auto;
+  padding: 25px;
+  padding-bottom: 33px;
+  width: 325px;
+}
+main #img-container {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 325px;
+}
+main #img-container img {
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s;
+}
+main #img-container #view {
+  position: relative;
+  border-radius: inherit;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 320px;
+  top: -100%;
+  transition: background-color 0.3s;
+}
+main #img-container #view:hover {
+  background-image: url("./images/icon-view.svg");
+  background-color: rgba(0, 255, 247, 0.5);
+}
+main #title {
+  font-weight: 600;
+  transition: color 0.3s;
+}
+main #title:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+main p {
+  color: #8bacda;
+}
+main #info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+main #info #price {
+  color: #00fff7;
+  font-weight: 400;
+}
+main #info #time {
+  color: #8bacda;
+}
+main hr {
+  border-color: #2f415b;
+  border-top: 1px solid #2f415b;
+}
+main footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  color: #8bacda;
+}
+main footer img {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin-top: 3px;
+}
+main footer div {
+  margin: 10px 0 0 18px;
+}
+main footer div span {
+  color: white;
+  transition: color 0.3s;
+}
+main footer div span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    box-shadow: none;
+  }
+}
+.eth {
+  display: inline-block;
+  width: 11px;
+  height: 18px;
+  margin: 0 7px -2px 0;
+  background-image: url("./images/icon-ethereum.svg");
+}
+
+.clock {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 4px -2px 0;
+  background-image: url("./images/icon-clock.svg");
+}
+
+/*# sourceMappingURL=style.css.map */
